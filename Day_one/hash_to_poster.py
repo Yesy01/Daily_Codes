@@ -58,7 +58,7 @@ def build_svg(seed: str, size: int, cells: int) -> str:
     # Build deterministic RNG function from seed.
     next_u32 = make_rng(seed)
     # Start SVG with required namespace and fixed canvas dimensions.
-    parts = [f'<svg xmlns="https://www.w3.org/TR/SVG2/" width="{size}" height="{size}">']
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}">']
     # Add a full-canvas background rectangle.
     parts.append(f'<rect width="{size}" height="{size}" fill="{rgb(next_u32, brighten=False)}"/>')
     # Compute cell width/height for a square grid.
