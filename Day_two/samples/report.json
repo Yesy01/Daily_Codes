@@ -1,0 +1,54 @@
+{
+  "generator": "../Day_one/hash_to_poster.py",
+  "runs": 2,
+  "seeds": [
+    {
+      "seed": "hello",
+      "hashes": [
+        "6c6dad0e693ef1a3cd2d103f4f89ff0a85531384fc06373d9ce24cb9c6d276ae",
+        "6c6dad0e693ef1a3cd2d103f4f89ff0a85531384fc06373d9ce24cb9c6d276ae"
+      ],
+      "deterministic": true,
+      "traits": {
+        "rects": 111,
+        "circles": 111,
+        "lines": 40,
+        "rgb_occurrences": 262,
+        "unique_colors": 262,
+        "avg_opacity": 0.563591
+      }
+    },
+    {
+      "seed": "deadbeef",
+      "hashes": [
+        "1e5735166584bce04822479545c12cb573883234f3c23e7a7703c7623e8fd57c",
+        "1e5735166584bce04822479545c12cb573883234f3c23e7a7703c7623e8fd57c"
+      ],
+      "deterministic": true,
+      "traits": {
+        "rects": 96,
+        "circles": 120,
+        "lines": 40,
+        "rgb_occurrences": 256,
+        "unique_colors": 256,
+        "avg_opacity": 0.584019
+      }
+    },
+    {
+      "seed": "0x1a2b3c4d5e",
+      "hashes": [
+        "1fbac80afe1142b583cc46a72bb16d83cfa636a1b243499dca64ea58455300c5",
+        "1fbac80afe1142b583cc46a72bb16d83cfa636a1b243499dca64ea58455300c5"
+      ],
+      "deterministic": true,
+      "traits": {
+        "rects": 100,
+        "circles": 118,
+        "lines": 40,
+        "rgb_occurrences": 258,
+        "unique_colors": 258,
+        "avg_opacity": 0.545833
+      }
+    }
+  ]
+}
